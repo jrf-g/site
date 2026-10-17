@@ -1,0 +1,4 @@
+# Is Python's `print` a keyword or a function?
+In older python a keyword that can be function-ized with, quoting AI here:
+> `from __future__ import print_function`
+But not anymore. now it is a function and `print "xyz"` would be invalid, and `print("xyz")` would be.
